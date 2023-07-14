@@ -30,8 +30,11 @@ class Environment implements \Cielo\API30\Environment
      */
     public static function sandbox()
     {
-        $api      = 'https://apisandbox.cieloecommerce.cielo.com.br/';
-        $apiQuery = 'https://apiquerysandbox.cieloecommerce.cielo.com.br/';
+        //$api      = 'https://apisandbox.cieloecommerce.cielo.com.br/';
+        //$apiQuery = 'https://apiquerysandbox.cieloecommerce.cielo.com.br/';
+
+         $api      = 'https://api.cieloecommerce.cielo.com.br/';
+        $apiQuery = 'https://apiquery.cieloecommerce.cielo.com.br/';
 
         return new Environment($api, $apiQuery);
     }
