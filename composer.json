@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-0": {
+      "Cielo": "src"
+    }
+  },
+  "name": "azpay/cielo30-sdk",
+  "description": "Integração com a API 3.0 da Cielo",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.6"
+  }
+}
